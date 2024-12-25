@@ -9,7 +9,7 @@ const Home = () =>{
             <h1>Didn't attend the classes! Worried about your internals
                 and semester examinations. Here is the solution for it.
             </h1>
-            <button className='btn' ><a href="#materails">Get Notes</a></button>
+            <button className='btn' ><a href="#materials">Get Notes</a></button>
             </div>
             <div className="container-img">
                 <img src = {homeimg} alt= 'home' />

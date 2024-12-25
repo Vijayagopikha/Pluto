@@ -6,7 +6,7 @@ const About = () => {
    <div className='container'>
     <div className='content-about'>
         <h1 id = 'about'>About Us</h1>
-        <h1>About Us</h1>
+
             <p>Welcome to Pluto, your ultimate academic resource hub!Just like the
                 special and unique planet Pluto, our drive is dedicated to providing
                 you with valuable study materials. We are a community of passionate 
