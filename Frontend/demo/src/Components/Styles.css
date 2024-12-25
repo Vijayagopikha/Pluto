@@ -176,11 +176,11 @@ nav ul li a:active {
     color: black;
     font-size:  24px;
     font-weight: bold;
-    text-align: left;
+    text-align: right;
     cursor: pointer;
     margin: 0 20px 10px auto;
 }
-.closebtn:hover {
+.close-btn:hover {
     color: #f2b91d;
 }
 
@@ -209,7 +209,7 @@ nav ul li a:active {
         margin: 10px 0;
         text-align: center;
       }
-      .closebtn {
+      .close-btn {
           display: block; 
       }
   
@@ -236,7 +236,7 @@ nav ul li a:active {
         top: 50px; 
         padding: 8px 0;
       }
-      .closebtn {
+      .close-btn {
           font-size: 20px; 
           margin: 0 10px 10px auto; 
       }
