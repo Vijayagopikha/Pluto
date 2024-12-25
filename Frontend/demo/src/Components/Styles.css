@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1;
+    color: inherit;
+}
+
+.btn{
+    padding: 14px 25px;
+    background: #fad265;
+    color: black;
+    font-size: 19px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2); 
+    
+}
+
+.btn:hover{
+    background: #f8e1a3;
+
+}
+
+/*materials*/
+
+.btn1{
+    padding: 14px 22px;
+    background: #fad265;
+    color: black;
+    font-size: 17px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex : 0 0 19%;
+}
+
+.materials-btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.materials-btn > .btn1:nth-child(odd){
+    background-color: #fad265;
+}
+
+.materials-btn > .btn1:nth-child(even){
+    background-color: #f8e1a3;
+}
+
+.materials-btn > .btn1:nth-child(odd):hover{
+    background-color: #f8e1a3; 
+}
+
+.materials-btn > .btn1:nth-child(even):hover{
+    background-color: #fad265;
+}
+
+/*search*/
+
+.search-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-btn label{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+.search-input{
+    border-radius: 20px;
+    padding: 12px 14px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    width: 220px;
+    max-width: 500px;
+    outline: none;
+    border: 2px solid #d6d5d5;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.search-input:focus{
+    border: 2px solid #dead0c;
+    border-color: #dead0c;
+
+}
+
+@media (max-width: 768px){
+    .btn1{
+        font-size: 16px;
+        padding: 12px 18px;
+        flex: 0 0 25%;
+    }
+
+    .materials-btn{
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px){
+    .btn{
+        font-size: 14px;
+        padding: 10px 15px; 
+        flex: 0 0 45%;
+    }
+    .materials-btn{
+        gap:8px;
+    }
+}
+
+.container{
+    margin-left: 32px;
+    margin-right: 32px;
+    line-height: 1.7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px; 
+    color: #060606; 
+
+}
+
+.container p{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #1c1c1c;
+    margin-bottom: 20px;
+}
+
+.container p, .container h1{
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.container p br {
+    margin-bottom: 10px;
+}
+.content-about {
+    padding: 30px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.content-contri {
+    padding: 30px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
