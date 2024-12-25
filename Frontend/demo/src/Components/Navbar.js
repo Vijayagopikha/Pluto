@@ -5,9 +5,9 @@ import logo from '../assests/logo.png';
 const Navbar = () => {
     const [isMobileView, setMobileView] = useState(false);
 
-    const toggle  = () => {
-        setMobileView(!isMobileView)
-    }
+    const toggleMenu  = () => {
+        setMobileView(!isMobileView);
+    };
 
     const closeMenu = () =>{
         setMobileView(false);
@@ -15,8 +15,8 @@ const Navbar = () => {
   return (
     <div>
       <nav className='container-nav'>
-        <img src = {logo} alt='Pluto' className='logo' />
-        <div className='hamburger' onClick={toggle}>
+        <img src = {logo} alt='logo' className='logo' />
+        <div className='hamburger' onClick={toggleMenu}>
             <span></span>
             <span></span>
             <span></span>
