@@ -7,7 +7,7 @@ const Materails = () =>
     const [searchQuery, setSearchQuery] = useState('');
 
     useEffect(() => {
-        fetch('/Materials.json')
+        fetch('/materials.json')
         .then((response)=> response.json())
         .then((data) => {
             setMaterials(data.Materials);
